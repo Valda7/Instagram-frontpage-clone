@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #F2F3F5;
+}
+
+.first-div{
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 20px 25px ;}
+
+p{
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.logo p{
+    text-decoration: none;
+    color: black;
+}
+.first-div .logo #profile-pic{
+    border-radius: 50%;
+}
+
+.first-div .logo  a{
+    text-decoration: none;
+}
+
+.first-div{
+    border: 1px solid grey;
+    padding-right: 30px;
+}
+
+.second-div{
+    background-color: #F2F3F5;
+}
+
+.second-div #story {
+    border-radius: 50%;
+    background-color: white;
+}
+
+.three-divs{
+    display: flex;
+}
+
+.the-circles{
+    padding: 20px 0px 10px 10px; 
+    background-color: white;
+}
+
+.the-circles a{
+    padding: 20px 20px 20px 10px;
+    
+}
+
+.second-div .the-circles{
+    border: 1px solid rgb(164, 162, 162);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.second-div .the-circles .followers{
+    align-items: center;
+}
+
+.second-div .the-circles p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+
+.second-div .the-circles img{
+    border-radius: 50%;
+    /* border-color: linear-gradient(magenta,yellow,red);
+    border-image-source: linear-gradient(to left, magenta, yellow, red); */
+    border-style: double;
+    border-width: 5px;
+}
+.second-div .post .post-heading{
+    align-content: center;
+    padding-top: 6px;
+}
+ .second-div .post .post-heading img{
+    border-radius: 50px;
+    margin-left: 20px; 
+    width: 35px ;
+    height: 35px; 
+    border-style: double;
+}
+.second-div .post .post-heading p{
+    font-size: small;
+    font-weight: 400;
+}
+.post-heading {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.post-heading .name{
+    text-decoration: none;
+    color: rgb(60, 59, 59) ;
+}
+
+.post-heading .dot{
+    padding-left: 300px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(60, 59, 59);
+    align-items: center;
+}
+
+
+.post .first-icons{
+    padding: 10px;
+}
+
+.post .last-icon{
+    padding-left: 400px;
+}
+
+.comments{
+    color: gray;
+}
+
+.second-div .post{
+    border: 1px solid rgb(164, 162, 162);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.second-div .post .desmond{
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+}
+
+.second-div .post .desmond img{
+    border-radius: 50%;
+}
+
+.second-div .post .desmond a{
+    text-decoration: none;
+    color: rgb(78, 77, 77);
+}
+
+.third-div{
+    padding-left: 50px;
+    padding-top: 90px;
+    background-color: #F2F3F5;
+}
+
+.third-div .profile .switch{
+    color: #1877F2;
+    text-decoration:none;
+    padding-left: 45px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.third-div .profile .profile-name{
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.third-div .profile .sub-profilename{
+    color: #828282;
+}
+.third-div .profile{
+    display: flex;}
+
+.third-div .profile img{
+    border-radius: 50%;
+
+}
+.third-div .suggestion .sug-divi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.third-div .suggestion .sug-divi h3{
+    color: #828282;
+}
+.third-div .suggestion .sug-divi a{
+    color: black;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: double;
+    margin-right: 10px;
+}
+
+.third-div .suggestion .sug-div{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.third-div .suggestion .sug-div img{
+    border-radius: 50%;
+}
+
+.third-div .suggestion .sug-div .name {
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.third-div .suggestion .sug-div .follow1{
+    padding-left: 121px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    color:#1877F2;
+}
+.third-div .suggestion .sug-div .follow2 {
+    padding-left: 138px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration:none;
+    color:#1877F2;
+}
+.third-div .suggestion .sug-div .follow3{
+    padding-left: 84px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    color:#1877F2;
+}
+.third-div .suggestion .sug-div .follow4{
+    padding-left: 143px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    color:#1877F2;
+}
+.third-div .suggestion .sug-div .follow5{
+    padding-left: 150px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    color:#1877F2;
+}
+
+.third-div .suggestion .sug-div .follows-you{
+    font-size: 12px;
+    color: rgb(148, 146, 146);
+}
